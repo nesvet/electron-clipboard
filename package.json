@@ -1,0 +1,30 @@
+{
+	"name": "electron-clipboard",
+	"version": "1.0.5",
+	"description": "Electron clipboard manager with IPC",
+	"type": "module",
+	"exports": {
+		"./main": "./main/index.js",
+		"./renderer": "./renderer/index.js"
+	},
+	"packageManager": "yarn@1.22.22",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nesvet/electron-clipboard.git"
+	},
+	"keywords": [
+		"electron",
+		"clipboard",
+		"renderer",
+		"main",
+		"ipc"
+	],
+	"author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
+	"license": "MIT",
+	"devDependencies": {
+		"@nesvet/eslint-config": "^1"
+	}
+}
