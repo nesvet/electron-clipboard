@@ -9,5 +9,5 @@ $ npm install electron-clipboard
 Or
 
 ```sh
-$ yarn add electron-clipboard
+$ bun add electron-clipboard
 ```
