@@ -25,6 +25,9 @@
   ],
   "author": "Eugene Nesvetaev <dev@nesvet.dev> (https://nesvet.dev/)",
   "license": "MIT",
+  "dependencies": {
+    "@nesvet/n": "^1.1.14"
+  },
   "devDependencies": {
     "@nesvet/eslint-config": "^2.0.41",
     "electron": "^34.0.0",
