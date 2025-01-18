@@ -4,5 +4,6 @@
 *.log
 node_modules/
 .github/
+src/
 eslint.config.js
 tsconfig.json

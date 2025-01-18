@@ -4,12 +4,13 @@
   "description": "Electron clipboard manager with IPC",
   "type": "module",
   "exports": {
-    "./main": "./main/index.js",
-    "./renderer": "./renderer/index.js"
+    "./main": "./dist/main/index.js",
+    "./renderer": "./dist/renderer/index.js"
   },
   "packageManager": "bun@1.1.9",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "@nesvet/eslint-config": "^2.0.41",
+    "electron": "^34.0.0",
+    "typescript": "^5.7.3"
   }
 }
