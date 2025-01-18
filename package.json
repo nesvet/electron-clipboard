@@ -1,6 +1,6 @@
 {
   "name": "electron-clipboard",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Electron clipboard manager with IPC",
   "type": "module",
   "exports": {
